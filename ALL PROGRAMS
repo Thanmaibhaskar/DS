@@ -131,6 +131,10 @@ strings before reversing, s1=red , s2=yellow
 strings after reversing
 s1=der
 s2=wolley
+
+
+
+
 (B)WAP TO FIND THE ADDITION
 AND SUBSTRACTION OF TWO
 MATRICES USING POINTER
@@ -192,6 +196,10 @@ Addition of 2 matrices :
 Substraction of 2 matrices :
 0 0
 0 0
+
+
+
+
 Q2) DESIGN AND IMPLEMENT A
 DATABASE APPLICATION IN C
 #include<stdio.h>
@@ -240,6 +248,10 @@ Details of student 2
 Name: Harry
 USN: 5678
 Marks: 100
+
+
+
+
 Q3) Design and implement the stack
 and demonstrate its working with
 necessary input
@@ -341,6 +353,9 @@ Enter your choice: 2
 Element popped is 10
 Enter your choice: 2
 Stack is empty
+
+
+
 b)Stack using Linked List
 #include <stdio.h>
 #include <stdlib.h>
@@ -449,6 +464,10 @@ Enter your choice: 2
 Value deleted = 10
 Enter your choice: 2
 STACK IS EMPTY
+
+
+
+
 4) Design and implement an algorithm
 for conversion of an expression from
 one form to another . Demonstrate its
@@ -537,6 +556,9 @@ OUTPUT
 Enter an infix expression
 A$B*C-D+E/F/(G+H)
 AB$C*D-EF/GH+/+
+
+
+
 b)Infix to prefix conversion
 #include <stdio.h>
 #include <string.h>
@@ -609,6 +631,10 @@ A$B*C-D+E/F/(G+H)
 Reversed Infix : )H+G(/F/E+D-C*B$A
 Postfix Expression : HG+FE//DCBA*-+
 Prefix Expression : +-*ABCD//EF+GH
+
+
+
+
 5)Design and implement an algorithm
 to evaluate an arithmetic expressions
 which may be any form and
@@ -689,6 +715,10 @@ enter the postfix expression
 623+-382/+*2$3+
 post fix expression is 623+-382/+*2$3+
 answer =52
+
+
+
+
 6)Design and implement a given
 type(ordinary queue ,circular queue)
 queue in C (array implementation/Linked
@@ -828,6 +858,11 @@ Enter your choice : 2
 Element deleted is 30
 Enter your choice : 2
 Underflow condition
+
+
+
+
+
 B)Queue using Linked List
 #include <stdio.h>
 #include <stdlib.h>
@@ -1086,6 +1121,11 @@ Element deleted is 30
 Enter your choice : 4
 No elements to display
 Elements are : 0
+
+
+
+
+
 7) Design and implement a dynamic
 list(Singly and doubly linked list)to
 store any information which needs a
@@ -1310,6 +1350,10 @@ Enter your choice: 7
 Enter your choice: 6
 Enter the position to be deleted: 1
 30 is deleted at 1
+
+
+
+
 b)Doubly Linked List
 #include<stdio.h>
 #include<stdlib.h>
@@ -1545,7 +1589,7 @@ void main()
  int ch,res;
  printf("1.Insert at the top\n 2.Insert at the end\n 3.Insert at a pos\n 4.Delete
 at the top\n 5.Delete at the end\n6. Delete at a pos\n7.DisplayF\n
-8.DisplayB\n9.search\n10.Exit\n");
+\n9.search\n10.Exit\n");
  while(1)
  {
  printf("Enter your choice: ");
@@ -1616,7 +1660,9 @@ Enter your choice: 4
 20 is deleted
 Enter your choice: 4
 List is empty
-7) Design and implement binary tree
+
+
+8) Design and implement binary tree
 and demonstrate its working
 #include <stdio.h>
 #include <stdlib.h>
